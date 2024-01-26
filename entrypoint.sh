@@ -22,4 +22,4 @@ ${STEAMCMDDIR}/steamcmd.sh +@sSteamCmdForcePlatformType linux +login anonymous \
 +quit
 
 # server start
-su "${USER}" -c "cd ${SERVERDIR}/palserver/"
+su "${USER}" -c "cd ${SERVERDIR}/palserver/ && ./PalServer.sh"
